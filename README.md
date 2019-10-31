@@ -1,3 +1,22 @@
+# Prettiest
+
+### (a somewhat less) Opinionated Code Formatter
+
+**Prettiest** is a friendly yet cheeky fork of [Prettier](https://github.com/prettier/prettier) that is, subjectively speaking, the prettiest of the two.
+
+It was made to serve my own requirements and is not intended as a publicly maintained project. I have made it public in case it might be useful for others, but it comes with no guarantees. Use at your own risk.
+
+The only changes made to Prettier are the addition of extra options.
+
+### Extra options
+
+<!-- prettier-ignore -->
+| Option | Default | Override |
+| ------ | ------- | -------- |
+| **Brace style**<br />Style of braced statements (see [Indentation style](https://en.wikipedia.org/wiki/Indentation_style) on Wikipedia).<br /><br />Valid options: <ul><li>`1tbs` – "The One True Brace Style" with closing and opening braces on the same line</li><li>`stroustrup` – Bjarne Stroustrup's variant with newline between conditional blocks</li></ul>Credits: [@phaux](https://github.com/phaux) in PR [#6017](https://github.com/prettier/prettier/pull/6017/) | `"1tbs"` | CLI: <code>--brace-style <1tbs&#124;stroustrup></code> <br />API: <code>braceStyle: "<1tbs&#124;stroustrup>"</code>
+
+<hr>
+
 ![Prettier Banner](https://raw.githubusercontent.com/prettier/prettier-logo/master/images/prettier-banner-light.png)
 
 <h2 align="center">Opinionated Code Formatter</h2>
