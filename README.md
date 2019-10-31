@@ -8,7 +8,14 @@ It was made to serve my own requirements and is not intended as a publicly maint
 
 The only changes made to Prettier are the addition of extra options.
 
-### Extra options
+### Install
+
+1. Remove Prettier if already installed: `yarn remove prettier`
+2. Install Prettiest to replace it: `yarn add joakim/prettiest --dev`
+
+Prettiest will be installed as `prettier`.
+
+## Extra options
 
 <!-- prettier-ignore -->
 | Option | Default | Override |
